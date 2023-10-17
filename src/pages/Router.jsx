@@ -5,7 +5,7 @@ import AboutPage from "./about/About"
 import ProjectsPage from "./projects/projects"
 import ContactPage from "./contact/contact"
 
-function AppRouter() {
+export default function AppRouter() {
     return(
         <>
             <Routes>
@@ -17,5 +17,3 @@ function AppRouter() {
         </>
     )
 };
-
-export default AppRouter;

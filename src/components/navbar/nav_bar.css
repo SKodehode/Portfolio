@@ -1,0 +1,16 @@
+/* Styles for the navbar and it's items. Since this navbar isn't very complicated I decided to style it while refering  */
+
+nav {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+
+
+@media (width: 585px) {
+    /* This is where the navbar needs to change from a list of visible elements to a drop down button with the nav elements. */
+}

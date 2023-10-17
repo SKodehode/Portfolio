@@ -1,9 +1,10 @@
 import "./header.css"
+import NavBar from "../../navbar/navBar"
 
 export default function Header() {
     return(
         <header>
-            I am a header.
+            <NavBar/>
         </header>
     )
 }

@@ -1,0 +1,48 @@
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .page-link {
+    display: inline;
+    position: relative;
+    margin-right: 3rem;
+    padding-bottom: 0.1rem;
+}
+
+nav .page-link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.2rem;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom-right;
+    transition: transform 0.25s ease-out;
+}
+
+nav .page-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-social {
+    justify-content: start;
+}
+
+.nav-pages {
+    justify-content: end;
+}
