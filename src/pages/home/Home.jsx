@@ -1,4 +1,5 @@
 import "./home.css"
+import React from 'react'
 import LayoutBase from "../../components/layout/LayoutBase";
 
 export default function HomePage() {

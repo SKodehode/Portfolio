@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom"
+import React from 'react'
 import HomePage from "./home/Home"
 import AboutPage from "./about/About"
 import ProjectsPage from "./projects/projects"
