@@ -1,3 +1,16 @@
 footer {
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1.5rem;
+    width: 100%;
+    background-color: #242424;
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
+
+#copyright-notice {
+    font-size: 0.6rem;
+    color: white;
 }

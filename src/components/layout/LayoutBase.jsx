@@ -11,5 +11,5 @@ export default function LayoutBase(properties) {
             </main>
             <Footer/>
         </>
-    )
+    );
 }

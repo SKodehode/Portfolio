@@ -1,3 +1,24 @@
 #homepage {
-    background-color: beige;
+    height: auto;
+    min-width: 100%;
+}
+
+#hero-container {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#hero-title {
+    font-size: 2rem;
+}
+
+#hero-name {
+    font-size: 6rem;
+}
+
+svg {
+    width: 16;
+    height: auto;
 }
