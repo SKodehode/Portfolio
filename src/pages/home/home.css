@@ -1,24 +1,64 @@
 #homepage {
-    height: auto;
+    height: 90vh;
     min-width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 #hero-container {
-    position: absolute;
-    top: 55%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: 10rem 5rem 5rem 5rem;
 }
 
 #hero-title {
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 #hero-name {
     font-size: 6rem;
 }
 
-svg {
-    width: 16;
-    height: auto;
+.hero-buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+}
+
+.hero-buttons li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 0.75rem;
+    color: black;
+    background-color: white;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.hero-buttons .icon {
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+.resume-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: black;
+}
+
+.github-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: black;
+}
+
+.linkedin-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: black;
 }
