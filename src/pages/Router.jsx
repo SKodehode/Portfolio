@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom"
 import React from 'react'
 import HomePage from "./home/Home"
 import AboutPage from "./about/About"
-import ProjectsPage from "./projects/projects"
-import ContactPage from "./contact/contact"
+import ProjectsPage from "./projects/Projects"
+import ContactPage from "./contact/Contact"
 
 export default function AppRouter() {
     return(
