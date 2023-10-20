@@ -1,9 +1,9 @@
 import "./nav_bar.css"
 import "./nav_buttons.css"
 import "./nav_icons.css"
-import Buttons from "../../buttons/Buttons"
-import GithubIcon from "../../../assets/icons/github_icon"
-import LinkedinIcon from "../../../assets/icons/linkedin_icon"
+import Buttons from "../buttons/Buttons"
+import GithubIcon from "../../assets/icons/github_icon"
+import LinkedinIcon from "../../assets/icons/linkedin_icon"
 
 export default function Navbar() {
     return(

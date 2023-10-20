@@ -1,3 +1,39 @@
 #aboutpage {
-    background-color: burlywood;
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0rem 10rem 0rem 10rem;
+}
+
+#about-text, #knowledge-text {
+    text-align: start;
+}
+
+.about-text br {
+    padding: 5rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.skills li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.skills .icons {
+    display: flex;
+    margin-right: 5rem;
 }

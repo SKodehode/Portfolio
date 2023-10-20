@@ -19,11 +19,11 @@ export default function HomePage() {
                         <Buttons to="https://linkedin.com/in/stian-kvinnesland-079289113" icon={<LinkedinIcon/>} text="LinkedIn" external={true} />
                     </ul>
                 </div>
-                <div className="page-swap-wrapper">
+{/*                 <div className="page-swap-wrapper">
                     <ul className="page-swap-buttons">
                         <Buttons to="/about" text="" className="page-link" icon={<ArrowDownIcon/>} />
                     </ul>
-                </div>
+                </div> */}
             </div>
         </LayoutBase>
     )
