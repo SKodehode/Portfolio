@@ -62,3 +62,20 @@
     height: 2rem;
     fill: black;
 }
+
+
+.page-swap-wrapper {
+    position: absolute;
+    bottom: 2%;
+    right: 50%;
+}
+
+.page-swap-buttons {
+    list-style: none;
+}
+
+.arrow-down-icon {
+    width: 4rem;
+    height: 4rem;
+    fill: white;
+}

@@ -5,6 +5,7 @@ import Buttons from "../../components/buttons/Buttons";
 import ResumeIcon from "../../assets/icons/resume_icon";
 import GithubIcon from "../../assets/icons/github_icon";
 import LinkedinIcon from "../../assets/icons/linkedin_icon";
+import ArrowDownIcon from "../../assets/icons/arrow_down_icon";
 
 export default function HomePage() {
     return(
@@ -16,6 +17,11 @@ export default function HomePage() {
                         <Buttons to="https://drive.google.com/file/d/1C8f-1BFVbBS2O2S6ifxNwQ7vEhkOEcyS/view?usp=sharing" icon={<ResumeIcon/>} text="Resume" external={true} />
                         <Buttons to="https://github.com/SKodehode" icon={<GithubIcon/>} text="GitHub" external={true} />
                         <Buttons to="https://linkedin.com/in/stian-kvinnesland-079289113" icon={<LinkedinIcon/>} text="LinkedIn" external={true} />
+                    </ul>
+                </div>
+                <div className="page-swap-wrapper">
+                    <ul className="page-swap-buttons">
+                        <Buttons to="/about" text="" className="page-link" icon={<ArrowDownIcon/>} />
                     </ul>
                 </div>
             </div>
