@@ -18,22 +18,23 @@
     padding: 5rem;
 }
 
-.skills {
+.knowledge-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 
-.skills li a {
+.knowledge-buttons li a {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     color: white;
+    fill: white;
 }
 
-.skills .icons {
+.knowledge-buttons .icons {
     display: flex;
     margin-right: 5rem;
 }

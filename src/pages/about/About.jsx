@@ -23,7 +23,7 @@ export default function AboutPage() {
                     </div>
                     <div className="knowledge-wrapper">
                         <h2 id="knowledge title">My Knowledge</h2>
-                        <ul className="skills">
+                        <ul className="knowledge-buttons">
                             <Buttons to="https://developer.mozilla.org/en-US/docs/Web/HTML" icon={<HtmlIcon/>} text="HTML" external={true} />
                             <Buttons to="https://developer.mozilla.org/en-US/docs/Web/CSS" icon={<CssIcon/>} text="CSS" external={true} />
                             <Buttons to="https://developer.mozilla.org/en-US/docs/Web/JavaScript" icon={<JavascriptIcon/>} text="Javascript" external={true} />

@@ -6,7 +6,7 @@ export default function CssIcon() {
             xmlns="http://www.w3.org/2000/svg"
             width="32px"
             height="32px"
-            viewBox="0 0 40 40"
+            viewBox="5 6 28 28"
             enable-background="new 0 0 400 400"
             xml:space="preserve"
             preserveAspectRatio="xMidYMid meet">
