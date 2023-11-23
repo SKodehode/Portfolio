@@ -14,10 +14,10 @@ export default function AboutPage() {
         <LayoutBase>
             <div id="aboutpage">
                 <div className="about-image">
-
+                    <img class="portrait" src="./assets/images/portrait.jpg" alt="Portrait of myself." />
                 </div>
                 <div className="about-container">
-                    <div className="about-text">
+                    <div className="about-wrapper">
                         <h2 id="about title">About me</h2>
                         <p id="about-text">My name is Stian Kvinnesland and I recently completed a course where I had the pleasure of learning HTML, CSS, JavaScript, React and SQL over the last 6 months. Now I'm looking for a potential workplace where I can utilise my newly learned skills and grow as a developer.<br/>While I spent the last 6 months learning coding I do have a journeyman certificate as a ICT technician. I'm very fond of technology and working with machines and computer systems and it is a hobby of mine that I have had for several years. And learning how to code was the natural next step for me to increase my knowledge in the field of technology.<br/>I'm an avid video game enjoyer as well and in my spare time I enjoy playing games where I can spend time with friends. I'm particularly fond of the genre massive multiplayer games where you work together as a team to overcome challenges.<br/>I look forward to hearing from you!</p>
                     </div>

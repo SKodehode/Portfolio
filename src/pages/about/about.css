@@ -3,19 +3,28 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
     align-items: start;
     text-align: center;
     margin-top: 1rem;
-    padding: 0rem 10rem 0rem 10rem;
+    padding: 1rem 10rem 2rem 10rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: 100%;
+}
+
+.about-wrapper, .knowledge-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
 }
 
 #about-text, #knowledge-text {
     text-align: start;
-}
-
-.about-text br {
-    padding: 5rem;
 }
 
 .knowledge-buttons {
@@ -37,4 +46,10 @@
 .knowledge-buttons .icons {
     display: flex;
     margin-right: 5rem;
+}
+
+.portrait {
+    max-height: 80vh;
+    width: 100%;
+    object-fit: contain;
 }
