@@ -11,16 +11,15 @@ export default function ProjectCards({ posts }) {
                     <div className="card-info">
                         <h2 className="card-title">{post.title}</h2>
                         <p className="card-description">{post.description}</p>
-                        <div>
-                            <Buttons to={post.githublink} icon={<GithubIcon/>} text="GitHub" external={true} />
+                        <div className="card-links">
                             <Buttons to={post.livepage} icon={<HomeIcon/>} text="Visit" external={true} />
+                            <Buttons to={post.githublink} icon={<GithubIcon/>} text="GitHub" external={true} />
                         </div>
                     </div>
                     <div className="Project-Image">
                         <img className="card-image" src={post.image} alt={post.title} />
                     </div>
                 </div>
-
             ))}
         </>
     )

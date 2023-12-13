@@ -5,6 +5,14 @@
     justify-items: center;
 }
 
+.card-links {
+    display: flex;
+}
+
+.card-links a {
+    margin-right: 5rem;
+}
+
 .card-image {
     max-width: 40vw;
     height: auto;
