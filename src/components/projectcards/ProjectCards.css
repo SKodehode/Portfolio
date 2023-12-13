@@ -1,0 +1,16 @@
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-image {
+    max-width: 40vw;
+    height: auto;
+}
+
+.home-icon {
+    max-width: 2rem;
+    height: auto;
+}
