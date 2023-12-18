@@ -1,0 +1,24 @@
+.project-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.project-link {
+    display: flex;
+}
+
+.project-link a {
+    margin-right: 5rem;
+}
+
+.project-image {
+    max-width: 40vw;
+    height: auto;
+}
+
+.home-icon {
+    max-width: 2rem;
+    height: auto;
+}

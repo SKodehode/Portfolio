@@ -7,7 +7,7 @@ export default function ProjectsPage() {
     return(
         <LayoutBase>
             <div id="projectspage">
-               <p>I am the project's page.</p>
+               <h3>Projects</h3>
                <div id="projects-wrapper">
                     <ProjectsList projects={projects} />
                </div>

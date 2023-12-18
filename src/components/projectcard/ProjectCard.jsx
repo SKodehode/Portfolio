@@ -1,6 +1,7 @@
 import Buttons from "../buttons/Buttons";
 import HomeIcon from "../../assets/icons/home_icon";
 import GithubIcon from "../../assets/icons/github_icon";
+import "./ProjectCard.css"
 
 export default function ProjectCard({ project }) {
   return (
@@ -15,24 +16,15 @@ export default function ProjectCard({ project }) {
             ))}
           </ul>
         </div>
-        <div className="project-links">
-          <Buttons
-            to={project.livepage}
-            icon={<HomeIcon />}
-            text="Visit"
-            external={true}
+        <div className="project-link">
+          <Buttons to={project.livepage} icon={<HomeIcon />} text="Visit" external={true}
           />
-          <Buttons
-            to={project.githublink}
-            icon={<GithubIcon />}
-            text="GitHub"
-            external={true}
-          />
+          <Buttons to={project.githublink} icon={<GithubIcon />} text="GitHub" external={true} />
         </div>
       </div>
       <div className="project-image-container">
         <img
-          className="project-image-image"
+          className="project-image"
           src={project.image}
           alt={project.title}
         />
