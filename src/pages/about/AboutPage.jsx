@@ -1,4 +1,4 @@
-import "./about.css"
+import "./AboutPage.css"
 import React from 'react'
 import LayoutBase from "../../components/layout/LayoutBase"
 import Buttons from "../../components/buttons/Buttons"

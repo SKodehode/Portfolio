@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom"
 import React from 'react'
-import HomePage from "./home/Home"
-import AboutPage from "./about/About"
-import ProjectsPage from "./projects/Projects"
-import ContactPage from "./contact/Contact"
+import HomePage from "./home/HomePage"
+import AboutPage from "./about/AboutPage"
+import ProjectsPage from "./projects/ProjectsPage"
+import ContactPage from "./contact/ContactPage"
 
 export default function AppRouter() {
     return(

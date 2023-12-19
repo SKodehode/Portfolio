@@ -1,4 +1,4 @@
-import "./contact.css"
+import "./ContactPage.css"
 import React from 'react'
 import LayoutBase from "../../components/layout/LayoutBase";
 

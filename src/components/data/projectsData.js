@@ -1,4 +1,4 @@
-export const projects = [
+export const projectsData = [
     {
         id: 1, 
         image: "./assets/images/useStates_preview.png",

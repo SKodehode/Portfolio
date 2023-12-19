@@ -1,7 +1,8 @@
-import "./projects.css"
+import "./ProjectsPage.css"
 import LayoutBase from "../../components/layout/LayoutBase"
 import ProjectsList from "../../components/projectslist/ProjectsList"
-import { projects } from "../../components/data/projects.js"
+import { projectsData } from "../../components/data/projectsData"
+
 
 export default function ProjectsPage() {
     return(
@@ -9,7 +10,7 @@ export default function ProjectsPage() {
             <div id="projectspage">
                <h3>Projects</h3>
                <div id="projects-wrapper">
-                    <ProjectsList projects={projects} />
+                    <ProjectsList projects={projectsData} />
                </div>
             </div>
         </LayoutBase>
