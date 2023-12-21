@@ -7,7 +7,7 @@ export default function ProjectCard({ project }) {
   return (
     <div className="project-wrapper" key={project.id}>
       <div className="project-info">
-        <h2 className="project-title">{project.title}</h2>
+        <h4 className="project-title">{project.title}</h4>
         <p className="project-description">{project.description}</p>
         <div className="project-tools">
           <ul>

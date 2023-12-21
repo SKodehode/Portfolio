@@ -9,7 +9,7 @@ export default function ProjectsPage() {
         <LayoutBase>
             <div id="projectspage">
                <h3>Projects</h3>
-               <div id="projects-wrapper">
+               <div id="projects-container">
                     <ProjectsList projects={projectsData} />
                </div>
             </div>

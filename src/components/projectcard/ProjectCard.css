@@ -3,14 +3,60 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
+    padding: 0.5rem 0rem;
+}
+
+.project-info {
+    padding: 1rem 2rem;
+}
+
+.project-tools ul {
+    display: flex;
+    list-style: none;
+    padding: 1rem 0rem;
+}
+
+.project-tools ul li {
+    font-size: 0.7rem;
+    color: black;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 0.3rem;
 }
 
 .project-link {
     display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
 }
 
-.project-link a {
-    margin-right: 5rem;
+.project-link li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+}
+
+.project-link li a:hover {
+    background-color: lightgrey;
+}
+
+.project-link .icon {
+    display: flex;
+    margin-right: 0.3rem;
+    width: 2rem;
+}
+
+
+.project-link {
+    display: flex;
 }
 
 .project-image {
