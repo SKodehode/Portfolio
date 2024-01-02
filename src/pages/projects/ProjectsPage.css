@@ -1,3 +1,21 @@
-#projectspage {
-    padding: 2rem;
+#projects-page {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    position: relative;
+    text-align: center;
+}
+
+#projects-container {
+    text-align: start;
+    overflow-y: scroll;
+}
+
+#projects-title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
 }

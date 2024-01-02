@@ -7,8 +7,8 @@ import { projectsData } from "../../components/data/projectsData"
 export default function ProjectsPage() {
     return(
         <LayoutBase>
-            <div id="projectspage">
-               <h3>Projects</h3>
+            <div id="projects-page">
+               {/* <h3 id="projects-title">Projects</h3> */}
                <div id="projects-container">
                     <ProjectsList projects={projectsData} />
                </div>

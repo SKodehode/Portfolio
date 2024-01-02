@@ -2,20 +2,33 @@
     height: 90vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
     text-align: center;
-    margin-top: 1rem;
-    padding: 1rem 10rem 2rem 10rem;
+    padding: 0rem 2rem;
     position: relative;
+}
+
+.about-image {
+    overflow: hidden;
+    grid-column: 1;
+}
+
+.portrait {
+    height: 80vh;
+    width: 100%;
+    object-fit: contain;
 }
 
 .about-container {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    grid-column: 2;
+    grid-column-end: 3;
     height: 100%;
-    margin-bottom: 5rem;
+    padding: 1rem 2rem 0rem 2rem;
+    overflow-y: auto;
 }
 
 .about-wrapper, .knowledge-wrapper {
@@ -52,10 +65,4 @@
 .knowledge-buttons .icons {
     display: flex;
     margin-right: 5rem;
-}
-
-.portrait {
-    max-height: 80vh;
-    width: 100%;
-    object-fit: contain;
 }

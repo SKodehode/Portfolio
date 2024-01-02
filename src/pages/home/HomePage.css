@@ -40,6 +40,10 @@
     font-size: 1.5rem;
 }
 
+.hero-buttons li a:hover {
+    background-color: lightgray;
+}
+
 .hero-buttons .icon {
     display: flex;
     margin-right: 0.5rem;

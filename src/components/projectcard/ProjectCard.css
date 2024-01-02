@@ -54,13 +54,12 @@
     width: 2rem;
 }
 
-
 .project-link {
     display: flex;
 }
 
 .project-image {
-    max-width: 40vw;
+    max-width: 35vw;
     height: auto;
 }
 
