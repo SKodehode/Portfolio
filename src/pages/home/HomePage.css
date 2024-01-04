@@ -1,6 +1,6 @@
 #homepage {
-    height: 90vh;
-    min-width: 100%;
+    height: inherit;
+    width: inherit;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -82,4 +82,4 @@
     width: 4rem;
     height: 4rem;
     fill: white;
-}
+} 

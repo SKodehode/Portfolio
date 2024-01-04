@@ -1,12 +1,85 @@
 #aboutpage {
-    height: 90vh;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem;
+    height: 100%
+}
+
+#about-image-container {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+#about-portrait {
+    height: auto;
+    max-width: 100%; 
+    object-fit: contain;
+}
+
+#about-info-container {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.about-page-titles {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.about-page-texts {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+#knowledge-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+#knowledge-buttons li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    fill: white;
+}
+
+#knowledge-buttons .icon {
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+/* #aboutpage {
+    height: auto;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     text-align: center;
-    padding: 0rem 2rem;
+    padding: 2rem 2rem;
     position: relative;
+    overflow-y: hidden;
 }
 
 .about-image {
@@ -15,8 +88,8 @@
 }
 
 .portrait {
-    height: 80vh;
-    width: 100%;
+    height: auto;
+    max-width: 80%;
     object-fit: contain;
 }
 
@@ -28,7 +101,7 @@
     grid-column-end: 3;
     height: 100%;
     padding: 1rem 2rem 0rem 2rem;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .about-wrapper, .knowledge-wrapper {
@@ -65,4 +138,4 @@
 .knowledge-buttons .icons {
     display: flex;
     margin-right: 5rem;
-}
+} */
