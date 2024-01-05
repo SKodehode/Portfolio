@@ -8,8 +8,8 @@ export default function ProjectsPage() {
     return(
         <LayoutBase>
             <div id="projects-page">
-               <h3 id="projects-title">Projects</h3>
                <div id="projects-container">
+                    <h3 id="projects-title">Projects</h3>
                     <ProjectsList projects={projectsData} />
                </div>
             </div>
