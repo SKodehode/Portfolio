@@ -1,6 +1,6 @@
 #projects-page {
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: start;
     padding: 2rem;

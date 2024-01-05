@@ -19,6 +19,9 @@ export default function HomePage() {
                         <Buttons to="https://linkedin.com/in/stian-kvinnesland-079289113" icon={<LinkedinIcon/>} text="LinkedIn" external={true} />
                     </ul>
                 </div>
+                <div id="hero-image-container">
+                    <img id="hero-image" src="./assets/images/placeholder.png" alt="Portrait of myself."/>
+                </div>
             </div>
         </LayoutBase>
     )
