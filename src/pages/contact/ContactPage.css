@@ -6,12 +6,16 @@
     height: 100%;
 }
 
+#contact-page-content {
+    overflow-y: auto;
+}
+
 #contact-form {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 100%;
+    height: auto;
     width: 100%;
     overflow-y: auto;
     padding: 0rem 2rem;
@@ -27,56 +31,44 @@
     grid-row-end: 1;
 }
 
+.form-group-name-email {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
+    justify-content: start;
     padding: 1rem;
 }
 
-.form-group-name-email {
-    display: flex;
-}
-
-/* #form-group-name {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    align-items: end;
-    padding: 2rem;
-}
-
-#form-group-email {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    align-items: start;
-    padding: 2rem;
-}
-
-#form-group-message {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
-}
-
-#form-group-buttons {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 4;
-} */
-
-.contact-input-field {
-    margin-bottom: 5rem;
+.form-title {
+    padding: 0rem 0rem 0.5rem 0rem;
 }
 
 .contact-input-field {
     padding: 1rem;
     resize: none;
     font-family: 'Inter', sans-serif;
+}
+
+#contact-name, #contact-email {
+    width: 16rem;
+}
+
+#contact-button {
+    padding: 0.5rem 1rem;
+    color: black;
+    background-color: white;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+#contact-button:hover {
+    background-color: lightgray;
 }
