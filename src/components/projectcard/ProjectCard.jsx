@@ -5,7 +5,8 @@ import "./ProjectCard.css"
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="project-wrapper" key={project.id}>
+    <div className="project-container" key={project.id}>
+        <img className="project-image" src={project.image} alt={project.title} />
       <div className="project-info">
         <h4 className="project-title">{project.title}</h4>
         <p className="project-description">{project.description}</p>
@@ -21,13 +22,6 @@ export default function ProjectCard({ project }) {
           />
           <Buttons to={project.githublink} icon={<GithubIcon />} text="GitHub" external={true} />
         </div>
-      </div>
-      <div className="project-image-container">
-        <img
-          className="project-image"
-          src={project.image}
-          alt={project.title}
-        />
       </div>
     </div>
   );
