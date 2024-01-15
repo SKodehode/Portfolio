@@ -7,7 +7,6 @@ export default function ContactPage() {
         <LayoutBase>
             <div id="contactpage">
                     <form id="contact-form" action="https://formsubmit.co/stkvinnesland@gmail.com" method="POST">
-                        
                         <h3 id="Contact-page-title">Contact me</h3>
                         <div className="form-group-name-email">
                             <div className="form-group" id="form-group-name">
@@ -22,7 +21,7 @@ export default function ContactPage() {
                         <div className="form-group" id="form-group-message">
                             <label for="contact-text" className="form-title">Message:</label>
                             {/* <input className="contact-input-field" id="contact-text" type="text" name="message" min="2" required /> */}
-                            <textarea className="contact-input-field" id="contact-text" type="text" rows="15" cols="50" required="required" min="2" maxLength="2000"></textarea>
+                            <textarea className="contact-input-field" id="contact-text" type="text" name="message" rows="15" cols="50" required="required" min="2" maxLength="2000"></textarea>
                         </div>
                         <div className="form-group" id="form-group-buttons">
                             <button id="contact-button" type="submit">Submit</button>
