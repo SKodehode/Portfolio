@@ -3,9 +3,9 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: start;
+    gap: 2rem;
     padding: 2rem;
-    height: 100%;
-    text-align: center;
+    height: 100%
 }
 
 #contact-form {
@@ -15,4 +15,13 @@
     align-items: center;
     height: 100%;
     overflow-y: auto;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input-field {
+    margin-bottom: 5rem;
 }

@@ -1,0 +1,8 @@
+#appreciation-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    padding: 2rem 2rem 0rem 2rem;
+}
