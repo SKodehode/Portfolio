@@ -1,11 +1,9 @@
 #contactpage {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: start;
-    gap: 2rem;
-    padding: 2rem;
-    height: 100%
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
 }
 
 #contact-form {
@@ -14,14 +12,71 @@
     justify-content: start;
     align-items: center;
     height: 100%;
+    width: 100%;
     overflow-y: auto;
+    padding: 0rem 2rem;
 }
 
-#contact-form {
+#Contact-page-title {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.form-group {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
+
+.form-group-name-email {
+    display: flex;
+}
+
+/* #form-group-name {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-items: end;
+    padding: 2rem;
+}
+
+#form-group-email {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-items: start;
+    padding: 2rem;
+}
+
+#form-group-message {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#form-group-buttons {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+} */
 
 .contact-input-field {
     margin-bottom: 5rem;
+}
+
+.contact-input-field {
+    padding: 1rem;
+    resize: none;
+    font-family: 'Inter', sans-serif;
 }
