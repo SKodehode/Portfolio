@@ -1,10 +1,13 @@
 .project-container {
-    overflow: hidden;
     border-radius: 0.3rem;
 }
 
 .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 1rem;
+    height: 25rem;
 }
 
 .project-title {

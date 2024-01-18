@@ -35,4 +35,13 @@ export const projectsData = [
         githublink: "https://github.com/SKodehode/todolist",
         livepage: "https://skodehode.github.io/todolist/",
     },
+    {
+        id: 5, 
+        image: "./assets/images/disneyplus_preview.jpg",
+        title: "Disney+ in Figma",
+        description: "This project was the final Figma project I had as a part of the front-end developer course I attended at Jobloop and we were tasked with recreating a streaming site of our choice. I chose to recreate Disney+'s site. I chose Disney's site because at first glance it appeared to offer more variety in it's component's shapes and sizes.",
+        tools: ["Figma",],
+        githublink:"",
+        livepage: "https://www.figma.com/proto/vfSFzs7IBUkFmPQXJMkFsx/StianK-H04?page-id=0%3A1&type=design&node-id=1-2&viewport=565%2C60%2C0.23&t=7WQxiJQ1B8LMPzzU-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design",
+    },
 ]
