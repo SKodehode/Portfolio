@@ -15,8 +15,8 @@ export default function HomePage() {
                     <p id="hero-title">Hi, my name is <br/><span id="hero-name">Stian Kvinnesland</span><br/>and I am a Front-End developer</p>
                     <ul className="hero-buttons">
                         <Buttons to="https://drive.google.com/file/d/1Z11Swc9ufmP4kw5aZZstvEy5YO5w4ebN/view?usp=sharing" icon={<ResumeIcon/>} text="Resume" external={true} />
-                        <Buttons to="https://github.com/SKodehode" icon={<GithubIcon/>} text="GitHub" external={true} />
-                        <Buttons to="https://github.com/sakh11" icon={<GithubIcon/>} text="GitHub" external={true} />
+                        <Buttons to="https://github.com/SKodehode" icon={<GithubIcon/>} text="Old GitHub" external={true} />
+                        <Buttons to="https://github.com/sakh11" icon={<GithubIcon/>} text="New GitHub" external={true} />
                         <Buttons to="https://linkedin.com/in/stian-kvinnesland-079289113" icon={<LinkedinIcon/>} text="LinkedIn" external={true} />
                     </ul>
                 </div>
